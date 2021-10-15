@@ -1,0 +1,11 @@
+.iconosMedia a {
+    text-decoration: none;
+}
+
+.iconoWhatsApp, .iconoFacebook, .iconoInstagram {
+    color: black;
+}
+
+.textoCopyright {
+    color: white;
+}
