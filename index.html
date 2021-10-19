@@ -19,27 +19,160 @@
 </head>
 
 <body>
-
-    <!--Navbar-->
+    <header> <!--se agrega un header q contenga un nav, porque la web tiene dos navs-->
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO GM</a>
+            <a class="navbar-brand" href="./index.html">LOGO GM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="ms-auto navbar-nav">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Servicios</a>
-                    <a class="nav-link" href="#">Proyectos</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                    <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
 
                 </div>
             </div>
         </div>
     </nav>
+</header>
 
+<nav> <!--este seria el segundo menu de navegacion para las paginas que lo necesiten-->
+    </nav>
+
+
+<main> <!--se agrega la etiqueta main, de contenido principal (si lo prefieres podemos usar section)-->
+    <div class="container-fluid">
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./src/Home 1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./src/Home 2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+
+<div id='qSomos'> <!--contenido de quienes somos-->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  
+  <div class="col-md-4">
+      <div class="card-body">
+        <h5 class="card-title">¿Quienes somos?</h5>
+    </div>
+  </div>
+
+  <div class="col-md-8">
+    <div class="card-body">
+      <p class="card-text">Somos GMM Energía, empresa especializada en energía renovable, dedicada al asesoramiento de calidad en temas de eficiencia energética y reducción de consumo eléctrico. Buscamos soluciones que se adapten a la necesidad de cada usuario.</p>
+    
+  </div>
+</div>
+
+</div>
+
+
+<div id="img">  <!--img3-->
+    <div class="row row-cols-1 row-cols-md-2 g-2">
+  
+        <div class="col-md-6">
+            <div class="card-body">
+                <img src="./src/Home 3.png" class="img-fluid" alt="...">
+          </div>
+        </div>
+      
+        <div class="col-md-6">
+          <div class="card-body">
+            <p class="card-text">
+                <ul id='img3'>
+                    <li>Reducción de costos</li>
+                    <li>Alternativas sustentables</li>
+                    <li>Diagnósticos eficaces</li>
+                    </ul>
+          
+        </div>
+      </div>
+</div>
+<!--nosotros-->
+<div id='nosotros'>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  
+    <div class="col-md-4">
+        <div class="card-body">
+          <h5 class="card-title">Nosotros</h5>
+      </div>
+    </div>
+  
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text">Contamos con el apoyo de empresas asociadas para trabajar en conjunto y tener una mejor solución para los proyectos.</p>
+      
+    </div>
+  </div>
+  
+  </div>
+</div>
+<!--tarjetas de profile-->
+<div class="container-fluid">
+<div class='card-group' display: flex>
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id='profile'src="./src/Max-R_Headshot (1).jpg" class="img-fluid " alt="100px">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title2">Gonzalo M. Miguel</h5>
+          <p class="card-text">Lorem Ipsum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id='profile'src="./src/Max-R_Headshot (1).jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title2">Fremtec Solar</h5>
+          <p class="card-text">Lorem Ipsum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img id='profile'src="./src/Max-R_Headshot (1).jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title2">MT Energy</h5>
+          <p class="card-text">Lorem Ipsum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </main>
 
     <!--Footer-->
     <footer class="text-center mt-5 footer">
@@ -70,6 +203,7 @@
             <div class="textoCopyright">Buenos Aires - Argentina</div>
         </div>
 
+        <BR>
     </footer>
 
 
